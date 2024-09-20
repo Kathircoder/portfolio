@@ -37,7 +37,7 @@ const Navbar = () => {
                            {
                                 NavLinks.map((navdata, index) => (
                                     <NavLink key={index} to = {navdata.url}>
-                                        <li className='font-bold text-xl text-white'>{ navdata.title }</li>
+                                        <li className='font-bold hover:text-cyan-300 text-xl text-white'>{ navdata.title }</li>
                                     </NavLink>
                                 ))
                            }
