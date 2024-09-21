@@ -1,13 +1,20 @@
+import ProfileImg from '../img/kathirImg.jpg'
+
 const Profile = () => {
     return (
         <>
-            <div className="text-black font-bold text-3xl p-20"> 
-            <div > Hi Iam kathiravan <span className="text-red-600 font-bold text-3xl">B</span> 
+            <div className="h-screen w-screen">
+            <div className="w-full flex flex-row"> 
+            <div  className="w-1/2 p-12"> 
+            <h1 className='text-4xl font-bold p-6'>Hi I'am kathiravan <span className="text-red-600 font-bold text-3xl">B</span></h1>
+            <h1 className="text-red-600 font-bold  ml-6 mb-4 text-3xl">Software Developer</h1>
+            <h1 className=" text-black font-bold text-xl ml-6 mb-4 my-[10%] text-balance"> leverages cutting-edge information technology to advance biopharmaceutical research and development. By harnessing data analytics, machine learning, and bioinformatics, Portio Bio enhances the discovery and optimization of innovative therapeutics.</h1>
             </div>
-            <div className="text-red-600 font-bold text-3xl">Software Developer</div>
-            <div className="py-8 w-1/2 text-black font-bold text-lg "> leverages cutting-edge information technology to advance biopharmaceutical research and development. By harnessing data analytics, machine learning, and bioinformatics, Portio Bio enhances the discovery and optimization of innovative therapeutics.</div>
+            <div className="w-1/2">
+            <img src={ ProfileImg } alt="" className='h-[60%]  rounded-bl-full absolute left-90 right-20 top-40'/>
             </div>
-            <div className="flex flex-row justify-center text-center p-5 gap-7 w-full">
+            </div>
+            <div className="flex flex-row justify-center text-center gap-7 ">
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726569019/atom_wcytoz.png" className="h-10 w-10 "/>
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726568558/developer_g80rja.png" className="h-10 w-10 "/>
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726739795/html_a6djri.png" className="h-10 w-10 "/>
@@ -17,6 +24,7 @@ const Profile = () => {
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726742577/sql-server_l3olh9.png" className="h-10 w-10 "/>
 
         </div>
+        </div>
         </>
     )
 }
