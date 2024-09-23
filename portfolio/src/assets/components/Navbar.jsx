@@ -11,7 +11,7 @@ const Navbar = () => {
         },
         {
             title: "Projects",
-            url: "/projects"
+            url: "/Projects"
         },
         {
             title: "Contact",
@@ -29,15 +29,15 @@ const Navbar = () => {
     const [visible, setvisible] = useState(false)
     return (
         <>
-            <div className="w-full h-[5rem] flex justify-center items-center bg-slate-800">
+            <div className="w-full h-[5rem] flex justify-center items-center bg-slate-800 ">
                 <div className="w-[80%] h-full flex justify-center items-center flex-row">
                     <div className='w-1/2 flex h-full justify-start items-center font-bold text-2xl text-white'>Kathiravan B</div>
                     <div className='w-1/2 flex  h-full justify-end items-center'>
-                        <ul className='w-full list-none flex flex-row justify-center gap-6'>
+                        <ul className='w-full list-none flex flex-row justify-center gap-6 '>
                            {
                                 NavLinks.map((navdata, index) => (
-                                    <NavLink key={index} to = {navdata.url}>
-                                        <li className='font-bold hover:text-cyan-300 text-xl text-white'>{ navdata.title }</li>
+                                    <NavLink className={'rounded-lg p-1 '} key={index} to = {navdata.url}>
+                                        <li className='font-bold  hover:text-cyan-300 text-xl text-white'>{ navdata.title }</li>
                                     </NavLink>
                                 ))
                            }
