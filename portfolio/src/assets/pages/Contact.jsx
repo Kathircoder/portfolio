@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <>
          <div className="h-screen w-screen flex justify-center items-center">
-            <div className="h-[60%] w-[30%] flex justify-center items-center bg-[#f8f8f8] rounded-md shadow-md">
+            <div className="h-[60%] w-[30%] flex justify-center items-center bg-slate-800 rounded-md shadow-md">
               <form action="" className="h-full w-full flex flex-col justify-center items-center space-y-5" onSubmit={ contactReport }>
                 <div className="h-[3rem] w-[17rem] flex flex-row justify-center items-center space-x-4">
                   <input ref={ firstNameref } className="w-[8rem] h-[3rem] p-3 border-2 text-xl rounded-md" type="text" name="" placeholder="First-name" id="" />
@@ -31,7 +31,7 @@ const Contact = () => {
                   <input ref={ emailref } type="email" className="h-[3rem] w-[17rem] p-3 border-2 text-xl rounded-md" placeholder="email" name="" id="" />
                   <input ref={ phoneref } type="tel" className="h-[3rem] w-[17rem] p-3 border-2 text-xl rounded-md" name="" placeholder="Phone" id="" />
                   <input ref={ messageref } type="text" className="h-[3rem] w-[17rem] p-3 border-2 text-xl rounded-md text-gray-500" name="" placeholder="Message" id="" />
-                  <button className="h-[3rem] w-[17rem] border-b bg-blue-500 font-bold text-xl text-white rounded-md hover:bg-blue-600">Send</button>
+                  <button className="h-[3rem] w-[17rem] border-b bg-green-500 font-bold text-xl text-white rounded-md hover:bg-blue-600">Send</button>
               </form>
             </div>
          </div>

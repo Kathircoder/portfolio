@@ -60,7 +60,7 @@ const Navbar = () => {
                     <>
                         <div className="h-screen w-screen absolute top-0 left-0 bg-black/20 flex justify-center items-center z-50">
                             <div className=" h-[40%] w-[30%] bg-red z-50 flex flex-col  bg-white rounded-md  shadow-lg ">
-                                <div className="w-full h-[15%] flex flex-row justify-start px-10 items-center border-2 text-white bg-blue-500 rounded-md text-xl font-bold ">
+                                <div className="w-full h-[15%] flex flex-row justify-start px-10 items-center border-2 text-white bg-slate-800 rounded-md text-xl font-bold ">
                                     <div className="w-1/2">
                                         Login
                                     </div>
