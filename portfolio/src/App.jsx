@@ -1,6 +1,6 @@
 import Profile from './assets/pages/Profile'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Projects from './assets/pages/Projects'
+import Projects from './assets/pages/Project'
 import Contact from './assets/pages/contact'
 import WebLayout from "./layouts/WebLayout"
 const App = () => {
